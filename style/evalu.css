@@ -1,0 +1,53 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: midnightblue;
+    padding: 10px;
+    font-size: 120%;
+    font-weight: 600;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-variant: small-caps;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+​td,
+th {
+    border: 1px solid red;
+    text-align: left;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+​tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+td {
+    border: red 1px solid;
+    background-color: #836a3b;
+    color: black;
+    padding: 15px;
+}
